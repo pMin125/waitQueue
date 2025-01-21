@@ -4,7 +4,6 @@ Redis를 활용하여 사용자 대기열을 관리하고, 비동기적으로 �
 - Reactive Programming : WebFlux 기반으로 `ReactiveRedisTemplate`을 사용하여 비동기적이고 논블로킹 방식으로 데이터 처리.
 - Redis Integration : Redis의 ZSet을 활용해 대기열 데이터를 효율적으로 관리.
 - 스케줄*: `@Scheduled`를 사용하여 대기열 사용자 자동 처리
-- 
 ## 개발환경
 - Spring Boot 3.4.1 (Gradle), Spring WebFlux
 - Java 17
